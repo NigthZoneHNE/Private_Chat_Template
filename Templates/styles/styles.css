@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+.main-container {
+    max-width: 100%;
+    margin : 0 auto;
+}
+.main-container > div{
+    padding : 1em;
+    background-color: rgba(0, 255, 255,0.5);
+    border: 1px solid rgb(10,255,255);
+}
+.main-container{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 15px;
+    grid-auto-rows: minmax(150px,auto);
+}
+.div-one{
+    grid-column: 1;
+    grid-row: 1/2;
+}
+.div-two{
+    grid-column: 1;
+    grid-row: 3;
+}
+.message-box-container{
+    grid-column: 2 / 4;
+    grid-row: 1/5;
+}
+.div-four{
+    grid-column: 5;
+    grid-row: 1/2;
+}
+.div-five{
+    grid-column: 5;
+    grid-row: 3;
+}
