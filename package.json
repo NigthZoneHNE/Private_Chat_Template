@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/NigthZoneHNE/Private_Chat_Template/issues"
   },
-  "homepage": "https://github.com/NigthZoneHNE/Private_Chat_Template#readme"
+  "homepage": "https://github.com/NigthZoneHNE/Private_Chat_Template#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "firebase": "^11.10.0"
+  }
 }
