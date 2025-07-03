@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    background-color: aliceblue;
+}
+.main-container {
+    max-width: 100%;
+    margin : 0 auto;
+}
+.main-container > div{
+    padding : 1em;
+    background-color: rgba(246, 250, 255.0.5);
+    border: 2px solid rgb(203, 209, 216);
+    border-radius: 35px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+}
+.main-container{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 15px;
+    grid-auto-rows: minmax(150px,auto);
+}
+.div-one{
+    grid-column: 1;
+    grid-row: 1/4;
+}
+.div-two{
+    grid-column: 1;
+    grid-row: 4;
+}
+.message-box-container{
+    grid-column: 2 / 5;
+    grid-row: 1/5;
+}
+.div-four{
+    grid-column: 5;
+    grid-row: 1/4;
+}
+.div-five{
+    grid-column: 5;
+    grid-row: 4;
+}
